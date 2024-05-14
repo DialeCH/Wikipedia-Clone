@@ -5,22 +5,18 @@
 }
 
 .title {
-	margin: 25px;
+	margin: 35px;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
-
-.principal {
-	width: 100%;
-	display: flex;
-	justify-content: center;
+.title .wiki-title {
+	width: 170px;
 }
 
-.principal .logo-wiki {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.title .logo-wiki {
+	position: absolute;
+	top: 20%;
 }
 
 .search {
